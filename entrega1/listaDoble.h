@@ -24,12 +24,13 @@ class listaDoble {
         void eliminarFinal();
         void eliminarEn(int);
         T& obtener(int);
+        const T& obtener(int) const;
         int buscar(const T&) const;
-        int tamano();
+        int tamano() const;
         bool estaVacia() const;
         void limpiar();
-        void imprimir();
-        void imprimirReversa();
+        void imprimir() const;
+        void imprimirReversa() const;
         void ordenar(); // merge sort!
 };
 

@@ -155,6 +155,23 @@ T& listaDoble<T>::obtener(int index){
         return actual->dato;
     }
 }
+// esta version con const, es dedicada a las listas que se pasan al compilar
+// con CONST, duplique esta lista solo agregandole el const a la firma
+// no olvidar, jugador usara la version simple
+template <class T>
+const T& listaDoble<T>::obtener(int index) const{
+    Nodo<T>* actual = cabeza;
+    if(estaVacia()){
+        throw invalid_argument("No existe ese index en una lista vacia.");
+    }else if(index<0 || index >=tamanio){
+        throw invalid_argument("Index no valido para esta lista.");
+    }else{
+        for(int i = 0; i<index; i++){
+            actual=actual->next;
+        }
+        return actual->dato;
+    }
+}
 template <class T>
 int listaDoble<T>::buscar(const T& valorDelNodo) const{
     Nodo<T>* actual = cabeza;
@@ -168,7 +185,7 @@ int listaDoble<T>::buscar(const T& valorDelNodo) const{
     return -1;
 }
 template <class T>
-int listaDoble<T>::tamano(){
+int listaDoble<T>::tamano() const{
     return tamanio;
 }
 // checar si esta vacia (esto es fundamental para el resto de funciones):
@@ -190,7 +207,7 @@ void listaDoble<T>::limpiar(){
 }
 //imprimir
 template <class T>
-void listaDoble<T>::imprimir(){
+void listaDoble<T>::imprimir() const{
     Nodo<T>* actual = cabeza;
     while(actual!=nullptr){
         cout<<actual->dato<<endl;
@@ -198,7 +215,7 @@ void listaDoble<T>::imprimir(){
     }
 }
 template <class T>
-void listaDoble<T>::imprimirReversa(){
+void listaDoble<T>::imprimirReversa() const{
     Nodo<T>* actual = cola;
     while(actual!=nullptr){
         cout<<actual->dato<<endl;

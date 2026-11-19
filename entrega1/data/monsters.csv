@@ -1,2 +1,10 @@
 name,cr,type,size,ac,hp,align
-Observador,13,Aberracion,Enorme,,18,180,Flotante
+Observador,13,Aberracion,Enorme,18,180,Flotante
+Devorador de Mentes,7,Aberracion,Colosal,15,99,Terrenal
+Cubo Gelatinoso,2,Aberracion,Mediano,6,84,Invisible
+Mimic,2,Aberracion,Chico,12,58,Adhesivo
+Monstruo del Oxido,5,Aberracion,Mediano,7,50,Resistente
+Goblin,1/4,Triscuris,Chico,15,7,Agil
+Bandido,1/8,Humano,Mediano,12,11,Debil
+Paladin,3,Humano,Mediano,18,52,Resistente
+Dragon Rojo Joven,10,Dragon,Grande,18,178,Flotante

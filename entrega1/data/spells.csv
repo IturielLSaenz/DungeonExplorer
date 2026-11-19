@@ -1,0 +1,16 @@
+nombre,tipo,nivel,escuela,costoMP,efecto,dado,numDados,descripcion
+Fire Bolt,Hechizo,0,Evocation, 2,Danio, 10, 1,Lanza una onda de fuego contra el enemigo
+Ray of Frost,Hechizo,0,Evocation,2,Danio,8,1,Rayo de hielo que impacta al enemigo
+Sacred Flame,Hechizo,0,Evocation,2,Danio,8,1,Fuego sagrado que desciende sobre el enemigo
+Magic Missile,Hechizo,1,Evocation,5,Danio,4,3,Proyectiles magicos que nunca fallan
+Burning Hands,Hechizo,1,Evocation,5,Danio,6,3,Ondas de choques flameantes provenientes de las manos
+Guiding Bolt,Hechizo,1,Evocation,5,Danio,6,4,Destello de luz que golpea al enemigo
+Cure Wounds,Hechizo,1,Evocation,5,Curacion,8,1,Curacion de heridas
+Healing Word,Hechizo,1,Evocation,5,Curacion,4,1,Una palabra de poder magico que cura a distancia
+Shatter,Hechizo,2,Evocation,10,Danio,8,3,Estruendo que hace vibrar y quebrar el objetivo
+Prayer of Healing,Hechizo,2,Evocation,10,Curacion,8,2,Plegaria que restaura las fuerzas
+Inflict Wounds,Hechizo,1,Necromancy,15,Danio,10,3,Inflinge danio al enemigo causando heridas
+Fireball,Hechizo,3,Evocation,15,Danio,6,8,Una esfera de fuego
+Mass Cure Wounds,Hechizo,5,Evocation,25,Curacion,8,3,Ola de energia curativa
+Second Wind,Habilidad,0,Ninguna,0,Curacion,10,1,Recupera el aliento en medio del combate
+Divine Smite,Habilidad,0,Ninguna,0,Danio,8,2,Golpe imbuido de energia divina
