@@ -68,5 +68,3 @@ Los 15 hechizos y habilidades se tomaron del SRD 5e (System Reference Document d
 | Mass Cure Wounds | Hechizo | SRD 5e |
 | Second Wind | Habilidad (Fighter) | SRD 5e |
 | Divine Smite | Habilidad (Paladin) | SRD 5e |
-
-Este README fue realizado con apoyo de la IA para el formato de listas y detalles esteticos.
