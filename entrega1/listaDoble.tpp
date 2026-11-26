@@ -61,6 +61,7 @@ void listaDoble<T>::insertarEn(int index, const T& valor){
                 nuevoNodo->previous = previo;
                 actual->previous = nuevoNodo;
                 nuevoNodo->next =actual;
+                break;
             }else{
                 actual=actual->next;
                 previo=actual->previous;
@@ -85,7 +86,7 @@ void listaDoble<T>::insertarFinal(const T& valor){
 template <class T>
 void listaDoble<T>::eliminarInicio(){
     if(estaVacia()){
-        throw logic_error("No se puede limpiar una lista vacia.");
+        throw logic_error("No se puede eliminar una lista vacia.");
     }else{
         Nodo<T>* nodoSelecto = cabeza;
         if(nodoSelecto->next==nullptr){
@@ -104,7 +105,7 @@ void listaDoble<T>::eliminarInicio(){
 template <class T>
 void listaDoble<T>::eliminarFinal(){
     if(estaVacia()){
-        throw logic_error("No se puede limpiar una lista vacia.");
+        throw logic_error("No se puede eliminar una lista vacia.");
     }else{
         Nodo<T>* nodoSelecto = cola;
         if(nodoSelecto->previous==nullptr){
